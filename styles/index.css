@@ -1,0 +1,70 @@
+.register {
+  width: 800px;
+  background-color: #85a5fe;
+  height: auto;
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  font-size: larger;
+  color: white;
+  text-decoration: none;
+}
+.register a {
+  text-decoration: none;
+}
+.register:hover {
+  background-color: #7591de;
+  text-decoration: none;
+}
+.headbutton {
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+  padding: 0 10px 10px 0;
+}
+.headbutton > .redir {
+  margin: 0 30px;
+}
+.redir {
+  width: 150px;
+  height: 50px;
+  color: white;
+  background-color: #2e3a5b;
+  border-radius: 40px;
+  border: none;
+  font-size: 20px;
+}
+.redir:hover {
+  background-color: #40517f;
+}
+.search {
+  height: fit-content;
+  width: 850px;
+  border: #2e3a5b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-width: 2px;
+  border-style: dashed;
+  border-radius: 20px;
+}
+.search h1 {
+  color: #2e3a5b;
+}
+.search form {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+}
+.contact {
+  padding-top: 20px;
+  font-size: 20px;
+}
+.contact a {
+  text-decoration: none;
+  color: #2e3a5b;
+}
+.contact a:hover {
+  color: #383838;
+}
