@@ -4,6 +4,9 @@ form {
   justify-content: center;
   margin: 30px 0;
 }
+form > input{
+  margin:4px;
+}
 p {
   font-size: 15px;
 }
