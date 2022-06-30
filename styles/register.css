@@ -10,3 +10,7 @@ form > input{
 p {
   font-size: 15px;
 }
+
+button a{
+  color:black;
+}

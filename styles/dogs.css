@@ -1,3 +1,6 @@
 .bodydiv > button{
     margin: 20px;
 }
+button a{
+    color:black;
+}
