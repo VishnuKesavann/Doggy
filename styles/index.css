@@ -60,13 +60,6 @@
 .contact {
   margin:20px 0;
 }
-.contact a {
-  text-decoration: none;
-  color: #2e3a5b;
-}
-.contact a:hover {
-  color: #383838;
-}
 form button a{
-  color:black;
+  color:#fff;
 }
