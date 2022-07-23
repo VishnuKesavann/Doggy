@@ -4,66 +4,80 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/theme.css" />
-    <link rel="stylesheet" href="./styles/register.css" />
+    <link rel="stylesheet" href="theme.css" />
+    <link rel="stylesheet" href="register.css" />
     <title>Hands for Paws</title>
   </head>
   <body>
     <div class="bodydiv">
       <h1 class="maintitle">Hands for Paws</h1>
       <div class="break"></div>
-      <form action="submit">
+      <form action="/sign_up" method="post">
         <p>Enter your info:</p>
-        <br />
         <input
           type="text"
           placeholder="Owner's Name"
-          autocomplete="nope"
-          required
+          name="owner_name"
+          id="owner_name"
         />
         <input
           type="text"
           placeholder="Pet Breed"
-          autocomplete="nope"
-          required
+          name="pet_breed"
+          id="pet_breed"
         />
         <input
           type="text"
           placeholder="Blood Group"
-          autocomplete="nope"
-          required
+          name="blood_group"
+          id="blood_group"
         />
         <input
           type="text"
           placeholder="Pet's Age"
-          autocomplete="nope"
-          required
+          name="pet_age"
+          id="pet_age"
         />
         <input
           type="text"
           placeholder="Contact Number"
-          autocomplete="nope"
-          required
+          name="contact_number"
+          id="contact_number"
         />
         <input
           type="text"
           placeholder="Alternate Number"
-          autocomplete="nope"
-          required
+          name="alternate_number"
+          id="alternate_number"
         />
         <input
           type="text"
           placeholder="House No"
-          autocomplete="nope"
-          required
+          name="house_no"
+          id="house_no"
         />
-        <input type="text" placeholder="City" autocomplete="nope" required />
-        <input type="text" placeholder="State" autocomplete="nope" required />
-        <br />
-        <button>Submit</button>
+        <input
+          type="text"
+          placeholder="City"
+          name="city"
+          id="city"
+        />
+        <input
+          type="text"
+          placeholder="State"
+          name="state"
+          id="state"
+        />
+        <input
+          type="submit"
+          name="submit"
+          id="submit"
+          class="input-button"
+          value="Submit"
+        />
         <br /><br />
-        <button><a href="./index.html">Go Back</a></button>
       </form>
+      <button style="background: red;"><a href="https://127.0.0.1:5501/index.html">Go Back</a></button>
     </div>
   </body>
 </html>
