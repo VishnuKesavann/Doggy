@@ -57,9 +57,10 @@
   flex-direction: column;
   margin: 40px 0;
 }
+
 .contact {
   margin:20px 0;
 }
 form button a{
-  color:#fff;
+  color:rgb(19, 18, 18);
 }
