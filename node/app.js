@@ -46,7 +46,7 @@ app.post("/sign_up", function (req, res) {
     if (err) throw err;
     console.log("Record inserted Successfully");
   });
-  return res.redirect("dogs.html");
+  return res.redirect("http://192.168.229.229:5501");
 });
 
 app
@@ -54,8 +54,8 @@ app
     res.set({
       "Access-control-Allow-Origin": "*",
     });
-    return res.redirect("127.0.0.1:5001/index.html");
+    return res.redirect("http://192.168.229.229:5501");
   })
   .listen(3000);
 
-console.log("server listening at port 3000");
+console.log("server listening at port /3000");
